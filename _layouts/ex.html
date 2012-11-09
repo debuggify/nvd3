@@ -28,20 +28,6 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">
-      // redirect to nvd3.com if accessed from novus.github.com/nvd3 so that disqus comments work automatically
-      if (window.location.hostname != 'nvd3.com' && window.location.hostname != 'localhost')
-        window.location = 'http://nvd3.com' + window.location.pathname.replace('/nvd3','');
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33058059-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </head>
 
   <body>
@@ -58,8 +44,8 @@
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="http://nvd3.com"><i class="icon-white icon-home"></i> Home</a></li>
-              <li class="active"><a href="http://nvd3.com/ghpages/examples.html"><i class="icon-white icon-picture"></i> Examples</a></li>
-              <li><a href="http://nvd3.com/livecode"><i class="icon-white icon-play-circle"></i> Live Code</a></li>
+              <li class="active"><a href="ghpages/examples.html"><i class="icon-white icon-picture"></i> Examples</a></li>
+              <li><a href="livecode"><i class="icon-white icon-play-circle"></i> Live Code</a></li>
               <li><a href="http://github.com/novus/nvd3"><i class="icon-white icon-book"></i> Source</a></li>
             </ul>
             <ul class="nav pull-right">

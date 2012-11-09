@@ -4,7 +4,7 @@ A reusable chart library for d3.JS by Bob Monteverde of Novus Partners.
 
 Currently in an early stage of development, but will be a very active project.  It may change quite a bit from its current state, but will always try to follow the style in which d3.js was done.
 
-You can also check out the [examples page](http://nvd3.com/ghpages/examples.html)
+You can also check out the [examples page](ghpages/examples.html)
 
 ---
 
@@ -26,7 +26,7 @@ fork's root directory will rebuild both `nv.d3.js` and `nv.d3.min.js`.
 
 Without UglifyJS, you won't get the minified version when running make.
 
-**We ask that you DO NOT minify pull requests... 
+**We ask that you DO NOT minify pull requests...
 If you need to minify please build pull request in separate branch, and
 merge and minify in yout master.
 
